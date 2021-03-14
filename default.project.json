@@ -8,7 +8,7 @@
 				"$className": "Folder",
 				"Calc.Plugin": {
 					"$className": "Model",
-					"Main":{
+					"Main": {
 						"$path": "Calc.Plugin/Main.server.lua",
 						"License": {
 							"$path": "Calc.Plugin/License.lua"
@@ -17,7 +17,7 @@
 							"$path": "App/Base"
 						},
 						"lib": {
-							"$className": "Folder",
+							"$path": "FontViewer.Plugin/lib",
 							"AdvancedTween": {
 								"$path": "libs/AdvancedTween"
 							},
@@ -42,23 +42,185 @@
 				"EasingViewer.Plugin": {
 					"$className": "Model"
 				},
+				"FontViewer.Plugin": {
+					"$className": "Model",
+					"Main": {
+						"$path": "FontViewer.Plugin/Main.server.lua",
+						"License": {
+							"$path": "FontViewer.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"lib": {
+							"$path": "FontViewer.Plugin/lib",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							}
+						},
+						"res": {
+							"$path": "FontViewer.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
+				},
 				"IconPack.Plugin": {
-					"$className": "Model"
+					"$className": "Model",
+					"Main": {
+						"$path": "IconPack.Plugin/Main.server.lua",
+						"License": {
+							"$path": "IconPack.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"lib": {
+							"$path": "IconPack.Plugin/lib",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							}
+						},
+						"res": {
+							"$path": "IconPack.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
 				},
 				"NotePad.Plugin": {
 					"$className": "Model"
 				},
 				"Profiler.Plugin": {
-					"$className": "Model"
+					"$className": "Model",
+					"Main": {
+						"$path": "Profiler.Plugin/Main.server.lua",
+						"License": {
+							"$path": "Profiler.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"lib": {
+							"$path": "Profiler.Plugin/lib",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							},
+							"CustomScroll": {
+								"$path": "libs/CustomScroll"
+							},
+							"PluginGuiInput": {
+								"$path": "libs/PluginUtil/PluginGuiInput"
+							}
+						},
+						"res": {
+							"$path": "Profiler.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
 				},
 				"StdTimer.Plugin": {
-					"$className": "Model"
+					"$className": "Model",
+					"Main": {
+						"$path": "StdTimer.Plugin/Main.server.lua",
+						"License": {
+							"$path": "StdTimer.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"lib": {
+							"$path": "StdTimer.Plugin/lib",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							}
+						},
+						"res": {
+							"$path": "StdTimer.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
 				},
 				"TaskManager.Plugin": {
 					"$className": "Model"
 				},
 				"Taskbar.Plugin": {
-					"$className": "Model"
+					"$className": "Model",
+					"Main": {
+						"$path": "Taskbar.Plugin/Main.server.lua",
+						"License": {
+							"$path": "Taskbar.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"tmp": {
+							"$path": "Taskbar.Plugin/tmp"
+						},
+						"lib": {
+							"$path": "Taskbar.Plugin/lib",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							}
+						},
+						"res": {
+							"$path": "Taskbar.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
 				}
 			}
 		}

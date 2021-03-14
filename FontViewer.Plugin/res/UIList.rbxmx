@@ -1,0 +1,21 @@
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+	<Meta name="ExplicitAutoJoints">true</Meta>
+	<External>null</External>
+	<External>nil</External>
+	<Item class="UIListLayout" referent="RBX3717C1E6E77646338E87F0660279509B">
+		<Properties>
+			<BinaryString name="AttributesSerialize"></BinaryString>
+			<token name="FillDirection">1</token>
+			<token name="HorizontalAlignment">1</token>
+			<string name="Name">UIList</string>
+			<UDim name="Padding">
+				<S>0</S>
+				<O>0</O>
+			</UDim>
+			<token name="SortOrder">2</token>
+			<int64 name="SourceAssetId">-1</int64>
+			<BinaryString name="Tags"></BinaryString>
+			<token name="VerticalAlignment">1</token>
+		</Properties>
+	</Item>
+</roblox>
