@@ -1,0 +1,66 @@
+{
+	"name": "ROJO_RBX",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"QPlugins": {
+				"$className": "Folder",
+				"Calc.Plugin": {
+					"$className": "Model",
+					"Main":{
+						"$path": "Calc.Plugin/Main.server.lua",
+						"License": {
+							"$path": "Calc.Plugin/License.lua"
+						},
+						"App": {
+							"$path": "App/Base"
+						},
+						"lib": {
+							"$className": "Folder",
+							"AdvancedTween": {
+								"$path": "libs/AdvancedTween"
+							},
+							"Data": {
+								"$path": "libs/PluginUtil/Data"
+							},
+							"MaterialUI": {
+								"$path": "libs/MaterialUI"
+							},
+							"ToolbarCombiner": {
+								"$path": "libs/PluginUtil/ToolbarCombiner"
+							}
+						},
+						"res": {
+							"$path": "Calc.Plugin/res",
+							"LicenseViewer": {
+								"$path": "App/LicenseViewer"
+							}
+						}
+					}
+				},
+				"EasingViewer.Plugin": {
+					"$className": "Model"
+				},
+				"IconPack.Plugin": {
+					"$className": "Model"
+				},
+				"NotePad.Plugin": {
+					"$className": "Model"
+				},
+				"Profiler.Plugin": {
+					"$className": "Model"
+				},
+				"StdTimer.Plugin": {
+					"$className": "Model"
+				},
+				"TaskManager.Plugin": {
+					"$className": "Model"
+				},
+				"Taskbar.Plugin": {
+					"$className": "Model"
+				}
+			}
+		}
+	}
+}
