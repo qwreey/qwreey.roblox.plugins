@@ -22,8 +22,7 @@ function settings.init(Info)
         for _,func in pairs(BindToFontSizeChanged) do
             func(FontSize);
         end
-    end
-    
+    end;
 
     return settingsTable;
 end
